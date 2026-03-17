@@ -42,15 +42,16 @@ const SpecialCard = () => {
                     "pointer-events-none w-[90%] overflow-hidden rounded-t-[24px] border border-stone-100/10 transition-all duration-500 dark:border-stone-700",
                     "left-[5%] top-[50%] md:left-1/2 md:left-[68px] md:top-[30%]"
                   )}
-                  step4imgClass={cn(
-                    "pointer-events-none w-[90%] overflow-hidden rounded-t-[24px] border border-stone-100/10 transition-all duration-500 dark:border-stone-700",
-                    "left-[5%] top-[50%] md:left-1/2 md:left-[68px] md:top-[30%]"
-                  )}
                     image={{
+                        step1dark1: card4,
+                        step1dark2: card5,
                         step1light1: card4,
                         step1light2: card5,
+                        step2dark1: card6,
+                        step2dark2: card7,
                         step2light1: card6,
                         step2light2: card7,
+                        step3dark: card8,
                         step3light: card8,
                         step4light: card8,
                         alt: "Something",
