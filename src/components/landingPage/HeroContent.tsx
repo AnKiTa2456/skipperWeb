@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import WrapButton from "../ui/wrap-button";
 import { Globe } from "lucide-react";
 
@@ -6,10 +7,13 @@ const HeroContent = () => {
   return (
     <>
     <div className="flex flex-col items-center py-16">
-      <img
+      <Image
         className="h-10 mb-14"
         src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=806890&theme=light&t=1737565356562"
         alt=""
+        width={100}
+        height={40}
+        unoptimized
       />
       <h3 className="text-black/80 leading-0 text-4xl font-bold">
         Components crafted for
@@ -39,8 +43,8 @@ const HeroContent = () => {
       </p>
     </div>
 
-    <img className="absolute left-24 top-80 h-[700px]" src="https://skiper-ui.com/bg/bg_1.svg" alt="" />
-    <img className="absolute right-24 top-80 h-[500px]" src="https://skiper-ui.com/bg/bg_2.svg" alt="" />
+    <Image className="absolute left-24 top-80 h-[700px]" src="https://skiper-ui.com/bg/bg_1.svg" alt="" width={700} height={700} unoptimized />
+    <Image className="absolute right-24 top-80 h-[500px]" src="https://skiper-ui.com/bg/bg_2.svg" alt="" width={500} height={500} unoptimized />
     </>
   );
 };
