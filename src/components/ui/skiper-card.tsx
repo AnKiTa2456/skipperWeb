@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState, type MouseEvent } from "react"
-import Image, { type StaticImageData } from "next/image"
+import Image from "next/image"
 import {
   motion,
   useMotionTemplate,
@@ -103,17 +103,17 @@ export function SkiperCard({
   step2img2Class?: string
   step3imgClass?: string
   image: {
-    step1dark1: StaticImageData
-    step1dark2: StaticImageData
-    step1light1: StaticImageData
-    step1light2: StaticImageData
-    step2dark1: StaticImageData
-    step2dark2: StaticImageData
-    step2light1: StaticImageData
-    step2light2: StaticImageData
-    step3dark: StaticImageData
-    step3light: StaticImageData
-    step4light: StaticImageData
+    step1dark1: string
+    step1dark2: string
+    step1light1: string
+    step1light2: string
+    step2dark1: string
+    step2dark2: string
+    step2light1: string
+    step2light2: string
+    step3dark: string
+    step3light: string
+    step4light: string
     alt: string
   }
 }) {

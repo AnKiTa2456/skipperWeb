@@ -1,11 +1,6 @@
 import React from 'react'
 import { SkiperCard } from '../ui/skiper-card'
 import BadgeButton from '../ui/badge-button'
-import card4 from '/public/images/card4.webp'
-import card5 from '/public/images/card5.webp'
-import card6 from '/public/images/card6.webp'
-import card7 from '/public/images/card7.webp'
-import card8 from '/public/images/card8.webp'
 import { cn } from '@/lib/utils'
 
 const SpecialCard = () => {
@@ -43,17 +38,17 @@ const SpecialCard = () => {
                     "left-[5%] top-[50%] md:left-1/2 md:left-[68px] md:top-[30%]"
                   )}
                     image={{
-                        step1dark1: card4,
-                        step1dark2: card5,
-                        step1light1: card4,
-                        step1light2: card5,
-                        step2dark1: card6,
-                        step2dark2: card7,
-                        step2light1: card6,
-                        step2light2: card7,
-                        step3dark: card8,
-                        step3light: card8,
-                        step4light: card8,
+                        step1dark1: '/images/card4.webp',
+                        step1dark2: '/images/card5.webp',
+                        step1light1: '/images/card4.webp',
+                        step1light2: '/images/card5.webp',
+                        step2dark1: '/images/card6.webp',
+                        step2dark2: '/images/card7.webp',
+                        step2light1: '/images/card6.webp',
+                        step2light2: '/images/card7.webp',
+                        step3dark: '/images/card8.webp',
+                        step3light: '/images/card8.webp',
+                        step4light: '/images/card8.webp',
                         alt: "Something",
                     }}
                 />
