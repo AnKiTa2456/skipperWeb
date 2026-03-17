@@ -88,7 +88,7 @@ const Footer = () => {
             © 2024 Skiper UI. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm flex items-center mt-2 md:mt-0">
-            Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> by the Skiper team
+            Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> by Ankita
           </p>
         </div>
       </div>
